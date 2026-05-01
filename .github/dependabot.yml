@@ -12,6 +12,5 @@ updates:
 registries:
   npm-artifactory:
     type: "npm-registry"
-    url: "https://jfrogghdemo.jfrog.io/artifactory/api/npm/db-dependabot-local/"
+    url: "https://jfrogghdemo.jfrog.io"
     token: "${{secrets.JFROG_ARTIFACTORY_TOKEN}}"
-    replaces-base: true
