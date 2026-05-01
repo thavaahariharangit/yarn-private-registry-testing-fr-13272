@@ -5,10 +5,10 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"lodash@npm:4.17.1":
-  version: 4.17.1
-  resolution: "lodash@npm:4.17.1::__archiveUrl=https%3A%2F%2Fjfrogghdemo.jfrog.io%2Fartifactory%2Fapi%2Fnpm%2Fdependabot-npm-local%2Flodash-4.17.1.tgz"
-  checksum: 10c0/eb7ea8b4fe43840be3daaf327d5273428290143f3b4f780141e75aece7fc2e95ec33ef49f58e0550e86b10cb967e7f7769070546795a5dee663a9ecdb73a52e9
+"lodash@npm:^4.18.1":
+  version: 4.18.1
+  resolution: "lodash@npm:4.18.1::__archiveUrl=https%3A%2F%2Fjfrogghdemo.jfrog.io%2Fartifactory%2Fapi%2Fnpm%2Fdb-dependabot-local%2Flodash-4.18.1.tgz"
+  checksum: 10c0/757228fc68805c59789e82185135cf85f05d0b2d3d54631d680ca79ec21944ec8314d4533639a14b8bcfbd97a517e78960933041a5af17ecb693ec6eecb99a27
   languageName: node
   linkType: hard
 
@@ -16,6 +16,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    lodash: "npm:4.17.1"
+    lodash: "npm:^4.18.1"
   languageName: unknown
   linkType: soft
